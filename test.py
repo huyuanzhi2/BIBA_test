@@ -1,11 +1,10 @@
-from biba import *
+from biba import BIBA
 import unittest
 
 mode = "strict"
 data = ['1','a','sasd']
 data1 = [1,2,4]
 data2 = "test"
-
 biba_1 = BIBA(1,data1,mode)
 biba_1_1 = BIBA(11,data2,mode)
 biba_2 = BIBA(2,data,mode)
